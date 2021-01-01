@@ -3651,10 +3651,10 @@
     telejson "^3.2.0"
     util-deprecate "^1.0.2"
 
-"@supabase/gotrue-js@^1.9.0":
-  version "1.9.0"
-  resolved "https://registry.yarnpkg.com/@supabase/gotrue-js/-/gotrue-js-1.9.0.tgz#00fd43069977fb76c9d51c21e35fc25ed3f3a38c"
-  integrity sha512-2344TbP/a+9FpPDHo8tR8SWGgDS+TAl3N6mlxeTgnrOVudxRNGECr4zk5z9tv+TVzZsAgC/rSAqP+7XkNqt6zQ==
+"@supabase/gotrue-js@^1.9.1":
+  version "1.9.2"
+  resolved "https://registry.yarnpkg.com/@supabase/gotrue-js/-/gotrue-js-1.9.2.tgz#cefa6191cf8f98b96fb8592d86806aafaa2f1ac9"
+  integrity sha512-RpspDVQdVX4suaODoA+amURn5d8O3zxfRrzMFYX0OV2Ys9wIx5ItoiMrZMQB0badMBn5eCiGUquk3blubiTUJw==
   dependencies:
     cross-fetch "^3.0.6"
 
@@ -3674,12 +3674,12 @@
     query-string "^6.12.1"
     websocket "^1.0.31"
 
-"@supabase/supabase-js@^1.0.7":
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/@supabase/supabase-js/-/supabase-js-1.1.1.tgz#9ed353794665b789054885fc90a1c8d6fe561bee"
-  integrity sha512-BsLugIfTgfKVJC1H/fWHqV1QKK+2EFE2AYbS51XRwF0fBKV885RG6Tiq9vZidNeO/Mw8TZKpZ9pD8tQ8FIbLAQ==
+"@supabase/supabase-js@^1.1.2":
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/@supabase/supabase-js/-/supabase-js-1.1.2.tgz#2fbba18bcf5ceb9fff91ec470fbf5f8a3a3f6c27"
+  integrity sha512-NGseFj/ZJc0ftEnoaQ7jnTWoOhGGMNLiyxBw65NqaLhGUWrq1nRijYP9TfEg/VmF7sYe9CDyLonTxpX+YkkROA==
   dependencies:
-    "@supabase/gotrue-js" "^1.9.0"
+    "@supabase/gotrue-js" "^1.9.1"
     "@supabase/postgrest-js" "^0.21.2"
     "@supabase/realtime-js" "^1.0.6"
 
